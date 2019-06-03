@@ -8,6 +8,7 @@ describe("Fetch user data", () => {
 
     const user = await response.json();
     expect(user).to.be.an("Object");
+    expect(user.login).to.be.a("String");
   });
 });
 

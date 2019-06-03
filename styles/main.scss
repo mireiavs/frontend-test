@@ -28,7 +28,7 @@ body {
   width: 350px;
   background-color: $form-color;
   padding: 20px;
-  border-radius: 15px;
+  border-radius: 5px;
   margin-bottom: 20px;
   @include box-shadow(6px 5px 5px 0px rgba(0, 0, 0, 0.29));
   form {
@@ -79,6 +79,9 @@ body {
         flex-grow: 1;
         padding: 15px 0;
         border-bottom: 0.5px #cccccc solid;
+      }
+      & div:last-child {
+        border-bottom: none;
       }
       a {
         color: black;
